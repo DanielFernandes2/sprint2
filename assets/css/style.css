@@ -10,7 +10,7 @@
 :root{
     --cor-fundo: #fffefe;
     --nav-bar: #7A00E6;
-    --cor-navegacao: #fff;
+    --cor-texto-navegacao: #fff;
     --hover-navegacao: #8f8f8f;
     --cor-fundo-inicio: #fffefe;
     --cor-titulo-sub: #000;
@@ -60,6 +60,14 @@ header {
   display: none;
 }
 
+.bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--cor-texto-navegacao);
+  margin: 4px 0;
+}
+
 .navbar .all-links {
   display: flex;
   align-items: center;
@@ -79,7 +87,7 @@ header {
 header a, footer a {
   margin-left: 40px;
   text-decoration: none;
-  color: var(--cor-navegacao);
+  color: var(--cor-texto-navegacao);
   height: 100%;
   padding: 20px 0;
   display: inline-block;
@@ -170,7 +178,7 @@ section.about {
   max-width: 1200px;
 }
 
-.about {
+.about{
   margin-top: 30px;
 }
 
@@ -265,6 +273,7 @@ footer div {
 footer a {
   padding: 0;
 }
+
 
 @media screen and (max-width: 860px) {
   .navbar .all-links {
