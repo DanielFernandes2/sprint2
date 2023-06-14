@@ -186,12 +186,13 @@ section.about {
 }
 
 .about .team {
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
 .about .team ul {
   padding-left: 20px;
+  list-style: none;
 }
 
 .about .row {
@@ -271,6 +272,11 @@ footer div {
 
 footer a {
   padding: 0;
+}
+
+.mission-vision,
+.team{
+  text-align: center;
 }
 
 
