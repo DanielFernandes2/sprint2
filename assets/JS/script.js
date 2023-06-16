@@ -26,3 +26,5 @@
   // Adiciona um ouvinte de evento para o envio do formulário
   document.getElementById('contact-form').addEventListener('submit', submitForm);
 
+  
+
